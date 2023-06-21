@@ -60,22 +60,29 @@ puts "is number_students less than or equal to 21?", number_students <= 21
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+#YOU DO: Explain. 
+# This line looks at integer 4 and compares it to the integer 9 to see if 4 is less than 9. 
+# The system will return True. 
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+# This line compares integer 4 to the variable 'books'. Books is assigned the integer 3. The system will check to see if 4 is less than 3. 
+# The system will return False
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+# This line will compare two variables to see if 'friends' is greater than 'siblings'. 'Friends' is assigned the integer of 6, while 'siblings' is assigned the integer of 2. The system will check to see if 6 is greater than 2.
+#The system will return True
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
-
+# This line will compare two variables to see if 'attendees' does not equal 'meals'. 'attendees' is assigned the integer of 9, while 'meals' is assigned the integer of 8. The system will check to see if 9 does not equal 8.
+# The system will return True
 
 #-------------------
 # PART 3: Logical Operators
